@@ -11,5 +11,6 @@ class App < Sinatra::Base
     @number = params[:number].to_i
     square = @number * @number
     square.to_s
+  end
 
 end
